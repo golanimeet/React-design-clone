@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dBang {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(-20deg);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.2) rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.animate-line1 {
+  animation: fadeSlideUp 1s ease forwards;
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+
+.animate-line2 {
+  animation: fadeSlideUp 1s ease forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
+}
+
+.animate-line3 {
+  animation: fadeSlideUp 1s ease forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+.animate-d-bang {
+  animation: dBang 1.5s ease-out forwards;
+}
+
+.global {
+  margin-left: -5rem;
+}
