@@ -62,7 +62,7 @@ const Footer = () => {
                   </label>
                 </div>
 
-                <div className="flex justify-content-around items-center gap-50">
+                <div className="flex justify-between items-center">
                   <div>
                   <a
                     href="/privacy-policy"
