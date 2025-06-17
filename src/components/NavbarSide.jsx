@@ -8,7 +8,7 @@ import { LuNewspaper } from "react-icons/lu";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineGlobal } from "react-icons/ai";
 
-const Navbar = () => {
+const NavbarSide = () => {
   const [isOpen, setIsOpen] = useState(true);
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -89,4 +89,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarSide;

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import MiniNavbar from "../components/MiniNavbar";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
-import Navbar from "../components/NAvbar";
+import Navbar from "../components/NavbarSide";
 
 const categories = ["All", "Events", "Case Studies", "Updates", "Perspective"];
 const chapters = ["All", "D! UK", "D! Ireland", "D! Australia"];

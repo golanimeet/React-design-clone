@@ -5,7 +5,7 @@ import About from "./pages/About";
 import GlobalChapters from "./pages/GlobalChapters";
 import Latest from "./pages/Latest";
 import Contact from "./pages/Contact";
-import Navbar from "./components/NAvbar";
+import Navbar from "./components/NavbarSide";
 function App() {
   return (
     <>
